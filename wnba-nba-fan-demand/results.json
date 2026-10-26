@@ -1,0 +1,222 @@
+{
+ "wnba_games": 1512,
+ "nba_games": 12242,
+ "clark_played": {
+  "2024": 40,
+  "2025": 13,
+  "2026": 40
+ },
+ "clark_missed_2025": 32,
+ "wnba_avg": {
+  "2019": 6528,
+  "2022": 5695,
+  "2023": 6617,
+  "2024": 9796,
+  "2025": 10987,
+  "2026": 11471
+ },
+ "nba_avg": {
+  "2015": 17825,
+  "2016": 17863,
+  "2017": 17880,
+  "2018": 17973,
+  "2019": 17851,
+  "2022": 17171,
+  "2023": 18038,
+  "2024": 18330,
+  "2025": 18152,
+  "2026": 18105
+ },
+ "wnba_fill": {
+  "2019": 0.693,
+  "2022": 0.668,
+  "2023": 0.728,
+  "2024": 0.8,
+  "2025": 0.864,
+  "2026": 0.868
+ },
+ "nba_fill": {
+  "2015": 0.923,
+  "2016": 0.92,
+  "2017": 0.921,
+  "2018": 0.934,
+  "2019": 0.931,
+  "2022": 0.904,
+  "2023": 0.943,
+  "2024": 0.962,
+  "2025": 0.952,
+  "2026": 0.953
+ },
+ "wnba_growth_2023_2026": 0.734,
+ "nba_growth_2019_2026": 0.014,
+ "fever_road_lift_median": {
+  "2019": -0.089,
+  "2022": -0.149,
+  "2023": -0.009,
+  "2024": 0.705,
+  "2025": 0.557,
+  "2026": 0.322
+ },
+ "road_2025_phase_median": {
+  "Clark out (Aug-Sep)": 0.409,
+  "Clark out (early)": 0.844,
+  "Clark played": 0.656
+ },
+ "road_2025_phase_n": {
+  "Clark out (Aug-Sep)": 10,
+  "Clark out (early)": 8,
+  "Clark played": 5
+ },
+ "h2_clark_road_premium": 1.09,
+ "h2_noclark_road_premium": 0.588,
+ "h2_with_vs_without": 0.316,
+ "h4_teams": 11,
+ "h4_teams_up": 11,
+ "h4_median_chg": 0.254,
+ "nonfever_avg": {
+  "2019": 6666,
+  "2022": 6158,
+  "2023": 6800,
+  "2024": 8544,
+  "2025": 10023,
+  "2026": 10805
+ },
+ "h5_median_chg": -0.0016,
+ "h5_teams": 30,
+ "h6_tv_premium": 0.033,
+ "h7_weekend_premium": 0.073,
+ "h8_nba_weekend_premium": 0.0292,
+ "tests": [
+  {
+   "id": "H1",
+   "hypothesis": "Fever road lift 2024 > 2023",
+   "estimate": "median +71% vs -1%",
+   "p_raw": 0.00031,
+   "p_bh": 0.000827,
+   "significant_after_correction": true
+  },
+  {
+   "id": "H2",
+   "hypothesis": "2025: road crowds bigger with Clark than without",
+   "estimate": "with +109%, without +59% vs normal; gap +32%",
+   "p_raw": 0.394651,
+   "p_bh": 0.451029,
+   "significant_after_correction": false
+  },
+  {
+   "id": "H3",
+   "hypothesis": "Aug-Sep 2025 (Clark out) lift > 0",
+   "estimate": "median +41%, n=10",
+   "p_raw": 0.001953,
+   "p_bh": 0.003125,
+   "significant_after_correction": true
+  },
+  {
+   "id": "H4",
+   "hypothesis": "Non-Fever crowds grew 2023->2025 (same teams)",
+   "estimate": "median team +25%; 11/11 teams up",
+   "p_raw": 0.000977,
+   "p_bh": 0.001953,
+   "significant_after_correction": true
+  },
+  {
+   "id": "H5",
+   "hypothesis": "NBA crowds changed 2015-19 -> 2023-26 (same teams)",
+   "estimate": "median team -0.2%",
+   "p_raw": 0.612006,
+   "p_bh": 0.612006,
+   "significant_after_correction": false
+  },
+  {
+   "id": "H6",
+   "hypothesis": "WNBA major national TV games draw more",
+   "estimate": "+3.3%",
+   "p_raw": 0.037424,
+   "p_bh": 0.049899,
+   "significant_after_correction": true
+  },
+  {
+   "id": "H7",
+   "hypothesis": "WNBA weekend games draw more",
+   "estimate": "+7.3%",
+   "p_raw": 1e-06,
+   "p_bh": 6e-06,
+   "significant_after_correction": true
+  },
+  {
+   "id": "H8",
+   "hypothesis": "NBA weekend games draw more",
+   "estimate": "+2.9%",
+   "p_raw": 0.0,
+   "p_bh": 0.0,
+   "significant_after_correction": true
+  }
+ ],
+ "relocated_2024_2026": 50,
+ "relocated_fever_away": 20,
+ "relocated_fever_avg_att": 17931,
+ "relocated_fever_home_base_avg": 6822,
+ "rep_2026_fever_road_lift_median": 0.322,
+ "rep_2026_fever_road_p": 0.001048,
+ "rep_2026_nonfever_chg_median": 0.386,
+ "rep_2026_teams_up": 11,
+ "rep_2026_teams": 11,
+ "expansion": {
+  "2025 Golden State Valkyries": {
+   "avg": 18064,
+   "games": 22
+  },
+  "2026 Golden State Valkyries": {
+   "avg": 18064,
+   "games": 21
+  },
+  "2026 Portland Fire": {
+   "avg": 14516,
+   "games": 21
+  },
+  "2026 Toronto Tempo": {
+   "avg": 10828,
+   "games": 22
+  }
+ },
+ "stage1_mae_naive": 872,
+ "stage1_mae_ridge": 2836,
+ "stage2_auc_ridge": 0.95,
+ "stage2_auc_gbm": 0.955,
+ "stage2_mae_flat": 1795,
+ "stage2_mae_ridge": 1431,
+ "stage2_mae_gbm": 1408,
+ "pipeline_mae_naive": 1752,
+ "pipeline_mae_model": 1693,
+ "test_mean_att": 11487,
+ "test_games": 327,
+ "calibration": {
+  "Lowest 20%": {
+   "pred": 0.84,
+   "actual": 0.883,
+   "games": 67
+  },
+  "2": {
+   "pred": 0.875,
+   "actual": 0.886,
+   "games": 64
+  },
+  "3": {
+   "pred": 0.908,
+   "actual": 0.905,
+   "games": 65
+  },
+  "4": {
+   "pred": 0.948,
+   "actual": 0.979,
+   "games": 65
+  },
+  "Highest 20%": {
+   "pred": 1.267,
+   "actual": 1.343,
+   "games": 66
+  }
+ },
+ "top30_hit_rate": 0.833,
+ "top30_avg_ratio": 1.685
+}

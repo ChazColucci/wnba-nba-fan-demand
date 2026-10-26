@@ -1,0 +1,9 @@
+id,hypothesis,estimate,p_raw,p_bh,significant_after_correction
+H1,Fever road lift 2024 > 2023,median +71% vs -1%,0.00031026509405182774,0.0008273735841382073,True
+H2,2025: road crowds bigger with Clark than without,"with +109%, without +59% vs normal; gap +32%",0.3946506637768883,0.4510293300307295,False
+H3,Aug-Sep 2025 (Clark out) lift > 0,"median +41%, n=10",0.001953125,0.003125,True
+H4,Non-Fever crowds grew 2023->2025 (same teams),median team +25%; 11/11 teams up,0.0009765625,0.001953125,True
+H5,NBA crowds changed 2015-19 -> 2023-26 (same teams),median team -0.2%,0.6120056137442589,0.6120056137442589,False
+H6,WNBA major national TV games draw more,+3.3%,0.037424340191721354,0.049899120255628475,True
+H7,WNBA weekend games draw more,+7.3%,1.4178351648279028e-06,5.671340659311611e-06,True
+H8,NBA weekend games draw more,+2.9%,1.8233799524837774e-65,1.4587039619870219e-64,True
